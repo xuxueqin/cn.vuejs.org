@@ -137,7 +137,7 @@ post: {
 下面的模板：
 
 ``` html
-<blog-post v-bind="post"></blog-post>
+<blog-post v-bind:post="post"></blog-post>
 ```
 
 等价于：
